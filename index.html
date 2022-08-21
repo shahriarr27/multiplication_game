@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Solve Math</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="whole-box">
+      <div class="game-info-box">
+        <div class="result-alert">
+          <p id="correct">Correct!</p>
+          <p id="wrong">Wrong!</p>
+        </div>
+        <div class="score-box">
+          <p>Score: <span id="score">0</span></p>
+        </div>
+      </div>
+      <div class="eqn-box">
+        <h3 id="eqn-box">0 x 0</h3>
+      </div>
+      <div class="ans-box">
+        <p class="opt" id="opt1">00</p>
+        <p class="opt" id="opt2">00</p>
+        <p class="opt" id="opt3">00</p>
+        <p class="opt" id="opt4">00</p>
+      </div>
+      <div class="bottom">
+        <div class="start-btn">
+          <button id="strt-btn" type="button">Start Game</button>
+        </div>
+        <div id="timer">
+          <p>Time left: <span id="countdown"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Baumans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ececec;
+  font-family: 'Barlow Condensed', sans-serif;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whole-box {
+  padding: 30px;
+  width: 400px;
+  height: 380px;
+  background: #def8ff;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.212);
+          box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.212);
+  position: relative;
+}
+
+.whole-box .game-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.whole-box .game-info-box .result-alert #correct {
+  padding: 5px 15px;
+  background: #00c20a;
+  border-radius: 3px;
+  color: white;
+  display: none;
+}
+
+.whole-box .game-info-box .result-alert #wrong {
+  padding: 5px 15px;
+  background: #c20000;
+  border-radius: 3px;
+  color: white;
+  display: none;
+}
+
+.whole-box .game-info-box .score-box {
+  padding: 5px 15px;
+  background: #009bc2;
+  border-radius: 3px;
+  color: white;
+}
+
+.whole-box .eqn-box {
+  background: #7aebff;
+  padding: 10px;
+  height: 150px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 10px 5px rgba(0, 129, 161, 0.212);
+          box-shadow: inset 0px 0px 10px 5px rgba(0, 129, 161, 0.212);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+}
+
+.whole-box .eqn-box h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 75px;
+}
+
+.whole-box .ans-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.whole-box .ans-box .opt {
+  width: 50px;
+  height: 50px;
+  background: #7ddd00;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+  cursor: pointer;
+  font-size: 24px;
+  color: #141414;
+}
+
+.whole-box .ans-box .opt:active {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.whole-box .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.whole-box .bottom .start-btn button {
+  padding: 7px 15px;
+  background: #00b900;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  -webkit-box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+}
+
+.whole-box .bottom .start-btn button:active {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.whole-box .bottom #timer {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
